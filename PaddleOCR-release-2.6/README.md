@@ -20,7 +20,11 @@
 可以更改det、rec、cls模板文件、
 可以更改文件读取位置、文件结果输出位置等等
 
+四、后续更新
 
+1.使用下面提到的半自动标注工具PPOCRLabel完成自定义数据集的训练
+
+2.对文本格式输出数据进行进一步优化，方便后期的三元组读取
 
 English | [简体中文](README_ch.md) | [हिन्दी](./doc/doc_i18n/README_हिन्द.md) | [日本語](./doc/doc_i18n/README_日本語.md) | [한국인](./doc/doc_i18n/README_한국어.md) | [Pу́сский язы́к](./doc/doc_i18n/README_Ру́сский_язы́к.md)
 
