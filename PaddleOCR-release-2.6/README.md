@@ -1,24 +1,23 @@
 自用PP——structure：
 
-简单使用：
-1.识别图片和表格并输出：PaddleOCR-release-2.6\Multi_Pic
- 图片以jpg文件格式保存；表格以Excel格式保存
- 
-2.识别文字并输出：PaddleOCR-release-2.6\tools\infer\predict_system
- 文字输出格式为doc
- 
-保存地址：
-1.图片与表格保存地址在PaddleOCR-release-2.6\Save_picAexcel\table中
-并且有对应名称的文件夹保存
+一、简单使用：
 
-2.文字保存地址在PaddleOCR-release-2.6\Save_txt
-以对应名称保存
+1.识别图片和表格并输出：PaddleOCR-release-2.6\Multi_Pic，图片以jpg文件格式保存；表格以Excel格式保存
+ 
+2.识别文字并输出：PaddleOCR-release-2.6\tools\infer\predict_system，文字输出格式为doc
+ 
+二、文件保存：
 
-参数设置与图片导入：
+1.图片与表格保存地址在PaddleOCR-release-2.6\Save_picAexcel\table中，并且有对应名称的文件夹保存
+
+2.文字保存地址在PaddleOCR-release-2.6\Save_txt，以对应名称保存
+
+三、参数设置与图片导入：
+
 目标图片位置为PaddleOCR-release-2.6\doc\imgs_target，并且要注意命名格式，图片格式可以为jpg、png等等格式
 
-参数设置文件为PaddleOCR-release-2.6\tools\infer\utility
-可以更改det、rec、cls模板文件；
+参数设置文件为PaddleOCR-release-2.6\tools\infer\utility；
+可以更改det、rec、cls模板文件、
 可以更改文件读取位置、文件结果输出位置等等
 
 
